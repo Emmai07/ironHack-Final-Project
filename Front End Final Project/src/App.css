@@ -1,0 +1,29 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 20px;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+#root{
+  background-color: #d3d3d3;
+}
+.card-contain{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.css-c9jbsr{
+  justify-content: left !important;
+}
+.chakra-modal__content{
+  max-width: 200px !important;
+}
+.chakra-modal__content-container  {
+  transition: transform 0.8s ease-in-out !important;
+ 
+}
